@@ -1,1 +1,7 @@
-<li>{{book.author}}: {{book.title}} ({{book.genre}})</li>
+<div class="debug">book-tile.hbs</div>
+
+Title: {{book.title}}<br>
+Author: {{book.author}}<br>
+Genre: {{book.genre}}<br>
+
+<button {{action 'addToCart' book}}>Add to Cart</button>
