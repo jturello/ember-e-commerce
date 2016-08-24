@@ -14,6 +14,9 @@ export default Ember.Component.extend ({
         genre: this.get('genre')
       };
       this.set('addNewBook', false);
+      this.set('title', ""),
+      this.set('author', ""),
+      this.set('genre', ""),
       this.sendAction('save', params);
     }
   }
