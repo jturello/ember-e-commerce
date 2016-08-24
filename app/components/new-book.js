@@ -11,13 +11,15 @@ export default Ember.Component.extend ({
       var params = {
         title: this.get('title'),
         author: this.get('author'),
-        genre: this.get('genre')
+        genre: this.get('genre'),
+        cost: this.get('cost')
       };
       this.set('addNewBook', false);
       this.sendAction('save', params);
       this.set('title', "");
       this.set('author', "");
       this.set('genre', "");
+      this.set('cost', "");
     }
   }
 });

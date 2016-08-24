@@ -2,22 +2,27 @@
    "books": [{
   "title": "Coma",
   "author": "Michael Crichton",
-  "genre": "Thriller"
+  "genre": "Thriller",
+  "cost": "5.00"
 }, {
   "title": "Harry Potter",
   "author": "JK Rowling",
-  "genre": "Fantasy"
+  "genre": "Fantasy",
+  "cost": "5.00"
 }, {
   "title": "Jitterbug Perfume",
   "author": "Tom Robbins",
-  "genre": "Fiction"
+  "genre": "Fiction",
+  "cost": "5.00"
 }, {
   "title": "Dune",
   "author": "Frank Herbert",
-  "genre": "Sci-Fi"
+  "genre": "Sci-Fi",
+  "cost": "5.00"
 }, {
   "title": "Lord of The Rings",
   "author": "JRR Tolkien",
-  "genre": "Fantasy"
+  "genre": "Fantasy",
+  "cost": "5.00"
   }]
 }
