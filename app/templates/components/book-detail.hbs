@@ -1,3 +1,11 @@
-<div class="debug">
-  book-detail.hbs
-</div>
+<div class="debug">book-detail.hbs</div>
+
+<h2>Book Details</h2>
+
+<ul>
+  <li>Author - {{book.author}}</li>
+  <li>Title - {{book.title}}</li>
+  <li>Genre - {{book.genre}}</li>
+</ul>
+
+<button {{action 'addToCart' book}}>Add to Cart</button>

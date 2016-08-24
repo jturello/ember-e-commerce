@@ -1,7 +1,12 @@
-<div class="debug">book-tile.hbs</div>
+<div class="debug">book-title.hbs</div>
 
-Title: {{book.title}}<br>
-Author: {{book.author}}<br>
-Genre: {{book.genre}}<br>
+{{#link-to 'book' book.id}}{{book.title}} - {{book.author}} ({{book.genre}}){{/link-to}}
 
-<button {{action 'addToCart' book}}>Add to Cart</button>
+<!-- {{#link-to "book-detail" }} -->
+
+  <!-- Title: {{book.title}}<br>
+  Author: {{book.author}}<br>
+  Genre: {{book.genre}} -->
+
+
+<!-- {{/link-to}} -->
