@@ -16,6 +16,13 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    firebase: {
+        apiKey: "AIzaSyCgVBDLBavEYYwRRhxpCnRMTmlybi_SWA0",
+        authDomain: "books-a-bajillion.firebaseapp.com",
+        databaseURL: "https://books-a-bajillion.firebaseio.com",
+        storageBucket: "books-a-bajillion.appspot.com",
     }
   };
 

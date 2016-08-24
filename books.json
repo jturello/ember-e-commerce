@@ -1,0 +1,23 @@
+{
+   "books": [{
+  "title": "Coma",
+  "author": "Michael Crichton",
+  "genre": "Thriller"
+}, {
+  "title": "Harry Potter",
+  "author": "JK Rowling",
+  "genre": "Fantasy"
+}, {
+  "title": "Jitterbug Perfume",
+  "author": "Tom Robbins",
+  "genre": "Fiction"
+}, {
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "genre": "Sci-Fi"
+}, {
+  "title": "Lord of The Rings",
+  "author": "JRR Tolkien",
+  "genre": "Fantasy"
+  }]
+}
